@@ -15,6 +15,7 @@ public class AppointmentService {
 	
 	public void addAppointment(Appointment appointment) {
 		appointmentReposetory.save(appointment);
+		//delete AppointmentSlot from AppointmentSlots available
 		appoientmentSlotService.deleteAppointmentSlot(appointment.getAppointmentSlot().getId());
 		
 	}
