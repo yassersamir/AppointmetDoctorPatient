@@ -8,10 +8,10 @@ simple Appointment spring boot application between doctors and patients
   -JAVA 8
   
 # Entity Classes :  
-  -Patient
-  -Doctor
-  -ApointmentSlot – a class representing a time slot when a particular doctor is available for a visit
-  -Appointment – a class representing an appointment made by Patient to see Doctor at a particular ApointmentSlot
+  1-Patient
+  2-Doctor
+  3-ApointmentSlot – a class representing a time slot when a particular doctor is available for a visit
+  4-Appointment – a class representing an appointment made by Patient to see Doctor at a particular ApointmentSlot
   
 # Relashionships
   -Doctor __ AppointmentSlot   ont to many
